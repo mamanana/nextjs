@@ -1,5 +1,4 @@
-export const typeDefs = `
-  type Link {
+type Link {
     id: ID
     title: String
     description: String
@@ -7,9 +6,9 @@ export const typeDefs = `
     category: String
     imageUrl: String
     users: [String]
-  }
+}
 
-  type Query {
+type Query {
     links: [Link]!
-  }
-`
+    rollDice(numDice: Int!, numSides: Int): [Int]
+}

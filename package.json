@@ -10,6 +10,8 @@
   },
   "dependencies": {
     "@apollo/client": "^3.7.10",
+    "@graphql-tools/load-files": "^6.6.1",
+    "@graphql-tools/merge": "^8.4.0",
     "@prisma/client": "^4.11.0",
     "@types/node": "18.14.4",
     "@types/react": "18.0.28",
